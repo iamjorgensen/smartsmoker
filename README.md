@@ -1,4 +1,5 @@
 Cold Smoker - Smart Monitoring System Based on Esphome
+
 Introduction
 This project was born from my initial experiments with cold smoking to make bacon. During my first attempt, the cold smoke generator “overlit” and created too much heat, almost ruining the entire batch. On my second attempt, the smoke generator died out without my knowledge, resulting in constant monitoring. This sparked the idea of creating a smart system to monitor the entire process.
 
