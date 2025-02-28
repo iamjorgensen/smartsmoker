@@ -38,4 +38,5 @@ Components
 - Optional: the smart house system of your choice. I use Homey - and connect the alarm sensor to it so in case it goes off I get a notification directly on my phone
 - 3D printed housing - I have integrated magnets in the housing so it is possible to snapfit the box on my smoker. Also the top lid is "magnietified" so I can easily access the components e.g. for battery charging
 - SLT files are attached but here is the link to the onshape files if you want to fork it: https://cad.onshape.com/documents/d61b911dcf119192624dc2e8/w/872fa8dae954dfa362fa73d8/e/c944403b27acdf97769c7667?renderMode=0&uiState=67c168c30515791955792ab6
+- Magnets for snapfit of housing components https://www.aliexpress.com/item/1005003015281967.html
 
