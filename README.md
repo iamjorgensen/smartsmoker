@@ -1,19 +1,11 @@
-Cold Smoker - Smart Monitoring system based on Esphome
-
+Cold Smoker - Smart Monitoring System Based on Esphome
 Introduction
-This project was born when I first started experimenting with cold smoking to make bacon. On my first attempt the cold smoke generator "overlit"
-and created too much heat - almost runing the whole batch. On second attempt I also experienced that the smoke generator died out without me 
-knowing...resulting in me constantly going out to monitor how the process went. This sparked the idea - what about making a smart system to
-monitor the whole thing? 
+This project was born from my initial experiments with cold smoking to make bacon. During my first attempt, the cold smoke generator “overlit” and created too much heat, almost ruining the entire batch. On my second attempt, the smoke generator died out without my knowledge, resulting in constant monitoring. This sparked the idea of creating a smart system to monitor the entire process.
 
 Process
-It's been a process ending up to where the end result is now. The first versions of this was more complex - looking into different sensors to use to 
-actually monitor the smoke level in the chamber. I tested out the BME680 sensor which can monitor humidity, smoke/pollution and temperature. A perfect 
-match for such a  project you might think - but problem is that the smoke inside such chambers is very intense and this will detoriate the sensor over
-time. I noticed that after just a few smoke sessions the sensor capabilities detaoriated and I was a bit frustrated after all the efforts. But - what I 
-also noticed was that of course the tempearature inside the chamber always was a bit higher than outside - cold smoking is of course just that - but still
-the process of smoking will generate slight temperature increase...which again can be used to identify if the smoker is active or not. So as always 
-the KISS principle applies, keep it simple! 
+The development process has evolved significantly. Initially, I explored various sensors to monitor the smoke level in the chamber. I tested the BME680 sensor, which can monitor humidity, smoke/pollution, and temperature. However, the intense smoke inside the chamber deteriorated the sensor over time. After a few smoke sessions, the sensor’s capabilities diminished, leading to frustration.
+
+I noticed that the temperature inside the chamber was always slightly higher than outside. Cold smoking generates a slight temperature increase, which can be used to identify if the smoker is active. Thus, I applied the KISS principle: Keep It Simple! 
 
 End solution
 The end solution has following capabilities
@@ -39,4 +31,5 @@ Components
 - Esphome software https://esphome.io/
 - Optional: the smart house system of your choice. I use Homey - and connect the alarm sensor to it so in case it goes off I get a notification directly on my phone
 - 3D printed housing - I have integrated magnets in the housing so it is possible to snapfit the box on my smoker. Also the top lid is "magnietified" so I can easily access the components e.g. for battery charging
+- SLT files are attached but here is the link to the onshape files if you want to fork it: https://cad.onshape.com/documents/d61b911dcf119192624dc2e8/w/872fa8dae954dfa362fa73d8/e/c944403b27acdf97769c7667?renderMode=0&uiState=67c168c30515791955792ab6
 
